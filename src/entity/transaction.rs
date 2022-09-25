@@ -10,4 +10,8 @@ pub struct Transaction {
     pub created_on: DateTime<Utc>,
 }
 
-pub enum TransactionType {}
+pub enum TransactionType {
+    Deposit,
+    Withdraw,
+    Transfer,
+}
